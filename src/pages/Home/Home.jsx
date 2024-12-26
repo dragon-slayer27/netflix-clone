@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import TitleCards from "../../components/TitleCards/TitleCards";
+import Footer from "../../components/Footer/Footer";
 
 import Navbar from "../../components/Navbar/Navbar";
 import hero_banner from "../../assets/hero_banner.jpg";
@@ -40,6 +41,7 @@ const Home = () => {
         <TitleCards title={"Upcoming"} />
         <TitleCards title={"Top Picks for You"} />
       </div>
+      <Footer />
     </div>
   );
 };
