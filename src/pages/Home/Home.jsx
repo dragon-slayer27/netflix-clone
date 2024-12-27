@@ -32,13 +32,13 @@ const Home = () => {
               <img src={info_icon} /> More Info
             </button>
           </div>
-          <TitleCards />
+          <TitleCards category={"popular"} />
         </div>
       </div>
       <div className="more-cards">
-        <TitleCards title={"BlockBuster Movies"} />
-        <TitleCards title={"Only on Netflix"} />
-        <TitleCards title={"Upcoming"} />
+        <TitleCards title={"BlockBuster Movies"} category={"top_rated"} />
+        <TitleCards title={"Now Playing"} />
+        <TitleCards title={"Upcoming"} category={"upcoming"} />
         <TitleCards title={"Top Picks for You"} />
       </div>
       <Footer />
