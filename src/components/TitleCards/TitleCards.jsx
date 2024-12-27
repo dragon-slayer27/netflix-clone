@@ -11,7 +11,7 @@ const TitleCards = ({ title, category }) => {
     headers: {
       accept: "application/json",
       Authorization:
-        "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2ZGNmMzA5ZWQ0YTgwYmE2ZWFlMmFmNDM2YzhkNGRiMiIsIm5iZiI6MTczNTMyMjM4Ni41MTEwMDAyLCJzdWIiOiI2NzZlZWIxMmQwYjA4Zjk3MTg2MTYxZjUiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.Ew3JduyOgDDyYsdX5U3sQggRffNYsVHZgUjyUCDAARI",
+        "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyYjk0NDBiZjhlMjBiYzk4YTM4N2FiMzRmMTllZWRjNCIsIm5iZiI6MTczNTMyODExNy44NjIwMDAyLCJzdWIiOiI2NzZmMDE3NWJmMTBmZjE5ODQ2MTdlOTkiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.D5sUT88ZvN3YZNwl_fVgNwMNsMqWyk74eSUpW_1LKSY",
     },
   };
 
